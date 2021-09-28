@@ -4,13 +4,13 @@ require 'environment.php';
 $config = array();
 
 if (ENVIRONMENT == 'development') {
-  define("BASE_URL", "http://localhost/mvc_teste");
+  define("BASE_URL", "http://localhost/mvc_teste/");
   $config['dbname'] = 'crud';
   $config['host'] = 'localhost';
   $config['dbuser'] = 'root';
   $config['dbpass'] = "";
 } else {
-  define("BASE_URL", "http://localhost/mvc_teste");
+  define("BASE_URL", "http://localhost/mvc_teste/");
   $config['dbname'] = 'crud';
   $config['host'] = 'localhost';
   $config['dbuser'] = 'root';

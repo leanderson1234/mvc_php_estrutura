@@ -19,4 +19,11 @@ class Contato extends Model
 
     return $array;
   }
+  public function add($nome)
+  {
+    $sql = "INSERT INTO contato (nome) VALUES (:nome)";
+    $sql = $this->db->prepare($sql);
+    $sql->bindValue(':nome', $nome);
+    $sql->execute();
+  }
 }
