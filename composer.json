@@ -1,0 +1,18 @@
+{
+    "name": "leanderson/mvcteste",
+    "description": "testando estrutura mvc",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "src/Controllers/",
+            "Models\\": "src/Models/",
+            "Core\\": "src/Core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leanderson Santana",
+            "email": "leandersondesenvolvedor@gmail.com"
+        }
+    ],
+    "require": {}
+}
